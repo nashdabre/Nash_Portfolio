@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Background (white with slight texture) -->
+  <rect width="200" height="200" fill="#F5F5F5"/>
+
+  <!-- Letter "N" -->
+  <path d="M30 20 H50 V120 L70 20 H90 L70 120 V180 H50 V140 L30 180 H10 L30 120 V20 Z" fill="#1C2526" opacity="0.9"/>
+
+  <!-- Letter "D" -->
+  <path d="M110 20 H150 Q180 20 180 50 V150 Q180 180 150 180 H110 V20 Z M130 140 H150 Q160 140 160 120 V80 Q160 60 150 60 H130 V140 Z" fill="#1C2526" opacity="0.9"/>
+
+  <!-- Distressed effects for "N" -->
+  <!-- Splatters -->
+  <circle cx="40" cy="30" r="5" fill="#1C2526" opacity="0.7"/>
+  <circle cx="60" cy="25" r="3" fill="#1C2526" opacity="0.6"/>
+  <path d="M45 120 Q50 115 55 120 Q50 125 45 120 Z" fill="#1C2526" opacity="0.8"/>
+  <!-- Drips -->
+  <path d="M40 180 Q42 190 40 200 Q38 190 40 180 Z" fill="#1C2526" opacity="0.9"/>
+  <path d="M50 180 Q52 190 50 200 Q48 190 50 180 Z" fill="#1C2526" opacity="0.9"/>
+
+  <!-- Distressed effects for "D" -->
+  <!-- Bite mark on top -->
+  <path d="M160 20 Q170 10 180 20 Q175 25 165 30 Q160 25 160 20 Z" fill="#F5F5F5"/>
+  <!-- Splatters -->
+  <circle cx="170" cy="50" r="4" fill="#1C2526" opacity="0.7"/>
+  <circle cx="175" cy="60" r="2" fill="#1C2526" opacity="0.6"/>
+  <circle cx="180" cy="160" r="3" fill="#1C2526" opacity="0.7"/>
+  <!-- Scratches -->
+  <path d="M140 80 L160 70" stroke="#F5F5F5" stroke-width="2" opacity="0.5"/>
+  <path d="M150 90 L170 80" stroke="#F5F5F5" stroke-width="1" opacity="0.4"/>
+
+  <!-- Additional splatters around the design -->
+  <circle cx="20" cy="160" r="2" fill="#1C2526" opacity="0.6"/>
+  <circle cx="190" cy="30" r="3" fill="#1C2526" opacity="0.5"/>
+  <circle cx="100" cy="190" r="2" fill="#1C2526" opacity="0.6"/>
+</svg>
