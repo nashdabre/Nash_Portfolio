@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { background} from "../assets";
 
 
 
@@ -28,7 +29,11 @@ const Hero = () => {
         </div>
       </div>
       
-      <ComputersCanvas/>
+      {/* <img
+        src={background}
+        alt="Background"
+        className="absolute bottom-20 right-24 w-50 h-auto"
+      /> */}
      
    {/* <ComputersCanvas/> */}
       {/* the below is not of great use  */}

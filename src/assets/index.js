@@ -38,8 +38,10 @@ import health_care from "./health_care.jpeg"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import background from "./bg.png";
 
 export {
+  background,
   nd1,
   java_dev,
   app_dev,
