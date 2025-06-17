@@ -18,7 +18,33 @@ const Hero = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
-        <div>
+        
+       <div className="pt-5  ">
+         <pre className="font-mono font-bold  lg:text-3xl text-sm md:text-base leading-relaxed">
+          <code>
+            <span className=" text-white">public class</span>{" "}
+            <span className="text-purple-400">Developer</span> {"{\n"}
+            {"  "}
+            <span className="text-purple-300">String</span>{" "}
+            <span className="text-white">name</span> ={" "}
+            <span className="text-purple-100">"Nash Dabre"</span>; 
+            {"\n  "}
+            <span className="text-purple-300">String[]</span>{" "}
+            <span className="text-white">skills</span> ={" "}
+            <span className="text-purple-100">{"{ \"App Developer\", \"Web Developer\" }"}</span>;
+            {"\n\n  "}
+            <span className="text-purple-400">void</span>{" "}
+            <span className="text-white">introduce</span>() {"{\n    "}
+            <span className="text-purple-300">System</span>.
+            <span className="text-purple-200">out</span>.
+            <span className="text-purple-400">println</span>(
+            <span className="text-purple-100">"Hi, I'm " + name + " 👋"</span>);
+            {"\n  }\n"}
+            {"}"}
+          </code>
+        </pre>
+    </div>
+        {/* <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>Nash Dabre</span>
           </h1>
@@ -26,7 +52,7 @@ const Hero = () => {
             I develop Mobile Application <br className='sm:block hidden' />
             and Websites
           </p>
-        </div>
+        </div> */}
       </div>
       
       {/* <img

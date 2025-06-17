@@ -70,34 +70,6 @@ const services = [
 ];
 
 const technologies = [
-  
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  
   {
     name: "Android",
     icon: android,
@@ -130,6 +102,35 @@ const technologies = [
     name: "AWS",
     icon: aws,
   },
+ 
+  
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+   {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  
+  
   
 ];
 
@@ -237,29 +238,7 @@ const projects = [
     video: "/videos/landslide.mp4", 
     source_code_link: "https://github.com/nashdabre/Placement-Trainee",
   },
-  {
-    name: "Health Care App",
-    description:
-      "The Rural Health Care App is designed to provide essential healthcare services to rural areas. Built using Kotlin and Jetpack Compose, this Android application offers a variety of features to ensure comprehensive healthcare support.",
-    tags: [
-      {
-        name: "kotlin",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "android",
-        color: "green-text-gradient",
-      },
-      {
-        name: "api",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: health_care,
-    video: "/videos/HealthCareApp.mp4", 
-    source_code_link: "https://github.com/nashdabre/HealthCare-App",
-  },
-  {
+   {
     name: "Landslide Prediction using Machine Learning",
     description:
       "Developed a landslide prediction system using U-Net, Python, and TensorFlow for real-time forecasts. "+
@@ -283,6 +262,29 @@ const projects = [
     video: "/videos/landslide.mp4", 
     source_code_link: "https://github.com/nashdabre/Landslide_Prediction-using-ML",
   },
+  {
+    name: "Health Care App",
+    description:
+      "The Rural Health Care App is designed to provide essential healthcare services to rural areas. Built using Kotlin and Jetpack Compose, this Android application offers a variety of features to ensure comprehensive healthcare support.",
+    tags: [
+      {
+        name: "kotlin",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "android",
+        color: "green-text-gradient",
+      },
+      {
+        name: "api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: health_care,
+    video: "/videos/HealthCareApp.mp4", 
+    source_code_link: "https://github.com/nashdabre/HealthCare-App",
+  }
+ 
 ];
 
 export { services, technologies, experiences, testimonials, projects };
