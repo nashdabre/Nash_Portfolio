@@ -9,18 +9,17 @@ import { background} from "../assets";
 const Hero = () => {
   
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
-      <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
-      >
-        <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient' />
-        </div>
+      <section className="relative w-full h-screen mx-auto overflow-hidden">
+  <div
+    className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-col md:flex-row items-start gap-5`}
+  >
+    <div className="flex flex-col  items-center mt-5">
+      <div className="w-3 h-3 rounded-full bg-[#915EFF]" />
+      <div className="w-[2px] h-40 sm:h-80 violet-gradient" />
+    </div>
 
-        
-       <div className="pt-5  ">
-         <pre className="font-mono font-bold  lg:text-3xl text-sm md:text-base leading-relaxed">
+    <div className="pt-5 w-full overflow-x-auto">
+      <pre className="font-mono font-bold lg:text-3xl text-sm md:text-base leading-relaxed whitespace-pre-wrap break-words">
           <code>
             <span className=" text-white">public class</span>{" "}
             <span className="text-purple-400">Developer</span> {"{\n"}
@@ -43,6 +42,7 @@ const Hero = () => {
             {"}"}
           </code>
         </pre>
+        
     </div>
         {/* <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
