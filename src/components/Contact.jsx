@@ -117,12 +117,12 @@ const handleSubmit = async (e) => {
       </motion.div>
       
 
-       <motion.div
+       {/* <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[500px] h-[300px]'
       > 
         <EarthCanvas />
-     </motion.div> 
+     </motion.div>  */}
     </div>
     
 
