@@ -33,7 +33,7 @@ This site showcases my **skills**, **projects**, and the **technologies** I work
 
 | Home Page | About | Work Experience | Technologis Used | Projects | Contacts |
 |----------|----------|----------|----------|----------|----------|
-| ![Home](./screenshots/home.png) | ![Projects](./screenshots/about.png) | ![Projects](./screenshots/work.png) | ![Projects](./screenshots/tech.png) | ![Projects](./screenshots/projects.png) | ![Projects](./screenshots/contact.png) |
+| ![Home](./screenshots/home.png) | ![ABOUT](./screenshots/about.png) | ![WORK](./screenshots/work.png) | ![TECH](./screenshots/tech.png) | ![Projects](./screenshots/projects.png) | ![CONTACTS](./screenshots/contact.png) |
 
 
 > *(Optional: Add images of your deployed site by placing them in a `screenshots/` folder)*
