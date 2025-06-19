@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! 👨‍💻
 This site showcases my **skills**, **projects**, and the **technologies** I work with as a Mobile and Web Developer.
 
 ## 🌐 Live Demo
-> 🔗 [View Portfolio](https://your-portfolio-link.com)
+> 🔗 [View Portfolio](https://nashportfolio-eta.vercel.app)
 
 ---
 
@@ -43,11 +43,7 @@ This site showcases my **skills**, **projects**, and the **technologies** I work
 
 Feel free to connect with me via the contact form on the site or through:
 
-- 📧 Email: [your-email@example.com](mailto:your-email@example.com)
-- 💼 [LinkedIn](https://www.linkedin.com/in/yourprofile)
+- 📧 Email: [nashdabrework@gmail.com](mailto:nashdabrework@gmail.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/nash-dabre-56a3a226a)
 - 🧑‍💻 [GitHub](https://github.com/nashdabre)
-
----
-
-## 📁 Folder Structure
 
