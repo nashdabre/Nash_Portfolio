@@ -36,8 +36,6 @@ This site showcases my **skills**, **projects**, and the **technologies** I work
 | ![Home](./screenshots/home.png) | ![ABOUT](./screenshots/about.png) | ![WORK](./screenshots/work.png) | ![TECH](./screenshots/tech.png) | ![Projects](./screenshots/projects.png) | ![CONTACTS](./screenshots/contact.png) |
 
 
-> *(Optional: Add images of your deployed site by placing them in a `screenshots/` folder)*
-
 ---
 
 ## 📬 Contact
