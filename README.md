@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/cbf1f87d-17a6-4f01-bb6b-6080f9e9519e)# 🚀 Nash Dabre's Developer Portfolio
+# 🚀 Nash Dabre's Developer Portfolio
 
 Welcome to my personal portfolio website! 👨‍💻  
 This site showcases my **skills**, **projects**, and the **technologies** I work with as a Mobile and Web Developer.
@@ -31,10 +31,10 @@ This site showcases my **skills**, **projects**, and the **technologies** I work
 
 ## 📸 Screenshots
 
-| Home Page | Projects |
-|----------|----------|
-| ![Home](./screenshots/home.png) | ![Projects](./screenshots/projects.png) |
-![image](https://github.com/user-attachments/assets/b356e448-daa7-4f28-b4fd-8fac0b3bd293)
+| Home Page | About | Work Experience | Technologis Used | Projects | Contacts |
+|----------|----------|----------|----------|----------|----------|
+| ![Home](./screenshots/home.png) | ![Projects](./screenshots/about.png) | ![Projects](./screenshots/work.png) | ![Projects](./screenshots/tech.png) | ![Projects](./screenshots/projects.png) | ![Projects](./screenshots/contact.png) |
+
 
 > *(Optional: Add images of your deployed site by placing them in a `screenshots/` folder)*
 
