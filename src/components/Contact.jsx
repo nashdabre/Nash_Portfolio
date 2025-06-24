@@ -62,33 +62,6 @@ const Contact = () => {
   }
 };
 
-// const handleSubmit = async (e) => {
-//   e.preventDefault();
-//   setLoading(true);
-
-//   try {
-//     const response = await fetch("https://nash-portfolio-api.onrender.com/api/contact", {
-//       method: "POST",
-//       headers: {
-//         "Content-Type": "application/json",
-//       },
-//       body: JSON.stringify(form),
-//     });
-
-//     if (response.ok) {
-//       alert("Thank you. I will get back to you as soon as possible.");
-//       setForm({ name: "", email: "", message: "" });
-//     } else {
-//       alert("Something went wrong. Please try again.");
-//     }
-//   } catch (error) {
-//     console.error("Error:", error);
-//     alert("Something went wrong. Please try again.");
-//   } finally {
-//     setLoading(false);
-//   }
-// };
-
 
   return (
     
