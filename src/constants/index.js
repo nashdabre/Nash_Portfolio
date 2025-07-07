@@ -235,6 +235,7 @@ const projects = [
     video: "/videos/landslide.mp4", 
     source_code_link: "https://github.com/nashdabre/Landslide_Prediction-using-ML",
   },
+  
   {
     name: "Health Care App",
     description:
