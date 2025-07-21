@@ -51,18 +51,19 @@ const ProjectCard = ({
             <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl"></div>
 
             {/* GitHub icon */}
-            <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+            <div className="absolute inset-0 flex justify-end m-3 card-img_hover pointer-events-none">
               <div
                 onClick={(e) => {
                   e.stopPropagation();
+                  e.preventDefault();
                   window.open(source_code_link, "_blank");
                 }}
-                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 transition-transform duration-200"
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-110 transition-transform duration-200 pointer-events-auto z-20"
               >
                 <img
                   src={github}
                   alt="source code"
-                  className="w-1/2 h-1/2 object-contain"
+                  className="w-1/2 h-1/2 object-contain pointer-events-none"
                 />
               </div>
             </div>
