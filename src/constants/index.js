@@ -165,7 +165,7 @@ const experiences = [
     company_name: "Arcon",
     icon: arcon,
     iconBg: "#E6DEDD",
-    date: "January 2025 - June 2025",
+    date: "January 2025 - July 2025",
     points: [
       "PAM Troubleshooting: Troubleshoot issues in ARCON’s PAM product, ensuring secure access control and resolving technical challenges.",
       "Networking Expertise: Applied concepts like TCP forwarding, gateways, bridges, hubs, port numbers, and TCP three-way handshake to enhance system security.",
@@ -178,7 +178,7 @@ const experiences = [
     company_name: "Ingram Micro",
     icon: ingram,
     iconBg: "#ffffff",
-    date: "July 2025 - Present",
+    date: "August 2025 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

@@ -69,7 +69,8 @@ const ExperienceCard = ({ experience }) => {
            <p className="text-sm text-purple-300 mb-1">{experience.date}</p>
       </div>
 
-      <ul className='mt-5 list-disc ml-5 space-y-2'>
+     <ul className='mt-5 text-left list-disc ml-5 space-y-2 max-w-prose leading-relaxed'>
+
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}

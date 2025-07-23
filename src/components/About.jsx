@@ -223,7 +223,7 @@ const About = () => {
           <div className="absolute bottom-4 left-4 w-16 h-16 bg-gradient-to-r from-blue-400/10 to-purple-400/10 rounded-full blur-xl"></div>
           
           <motion.p
-            className="text-secondary text-justify text-[17px] max-w-4xl leading-[30px] relative z-10"
+            className="text-secondary text-justify text-[17px] max-w-5xl leading-[30px] relative z-10"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.8 }}
